@@ -1,0 +1,9 @@
+[package]
+name = "static-ioc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dep-inj = "0.1"
+derive_more = { version = "2.1", features = ["as_ref"] }
+dep-inj-target = { git = "https://github.com/zooeywm/dep-inj-target.git" }

@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = ["static-ioc"]
+
+[profile.dev]
+debug = 0
+
+[profile.release]
+codegen-units = 1
+panic         = "abort"
+
+[profile.product]
+inherits = "release"
+lto      = "fat"
+
+[workspace.dependencies]
