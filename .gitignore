@@ -1,0 +1,3 @@
+.xmake/linux/x86_64
+cpp/.cache/clangd/index
+cpp/compile_commands.json

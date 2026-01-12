@@ -1,5 +1,23 @@
 # Xmake
 
+生成 compile_commands.json
+
+```bash
+xmake project -k compile_commands
+```
+
+编译
+
+```bash
+xmake build <target>
+```
+
+切换模式
+
+```bash
+xmake f -m debug (or release)
+```
+
 编译指定 target
 
 ```bash
