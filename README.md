@@ -1,4 +1,4 @@
-# 我的不同语言的实用代码记录
+# 我的不同语言的代码记录
 
 [rust](./rs/): with cargo workspace
 

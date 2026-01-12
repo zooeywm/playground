@@ -1,16 +1,16 @@
 [workspace]
 resolver = "2"
-members = ["static-ioc", "tlv"]
+members = ["static-ioc", "tlv", "algorithms"]
 
 [profile.dev]
 debug = 0
 
 [profile.release]
 codegen-units = 1
-panic         = "abort"
+panic = "abort"
 
 [profile.product]
 inherits = "release"
-lto      = "fat"
+lto = "fat"
 
 [workspace.dependencies]
