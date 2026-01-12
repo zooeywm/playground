@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["static-ioc"]
+members = ["static-ioc", "tlv"]
 
 [profile.dev]
 debug = 0
