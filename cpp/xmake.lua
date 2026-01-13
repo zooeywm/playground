@@ -20,4 +20,4 @@ target("dxgi_pointer_monitor")
 
     add_files("src/dxgi_pointer_monitor/*.cpp")
     add_files("src/dxgi_pointer_monitor/*.h")
-    add_syslinks( "d3d11")
+    add_syslinks("d3d11")

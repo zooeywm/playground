@@ -11,7 +11,7 @@ class DxgiPointerMonitor : public QObject
 
 public:
     explicit DxgiPointerMonitor(QObject *parent = nullptr);
-    ~DxgiPointerMonitor();
+    ~DxgiPointerMonitor() override;
 protected:
     QScopedPointer<DxgiPointerMonitorPrivate> d_ptr;
 
