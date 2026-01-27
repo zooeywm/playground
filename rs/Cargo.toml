@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["static-ioc", "tlv", "algorithms", "compio-example"]
+members = ["static-ioc", "tlv", "algorithms", "compio-example", "const-test"]
 
 [profile.dev]
 debug = 0
